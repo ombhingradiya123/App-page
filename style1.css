@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+.allMain {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 26%;
+    padding: 24px;
+    background-color: white;
+    box-sizing: border-box;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.30) 0px 7px 29px 0px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgNameStar {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    width: 93%;
+    margin-top: 4px;
+}
+
+.icon {
+    width: 58px;
+    height: 59px;
+}
+
+.imgNameStar {
+    display: flex;
+}
+
+.nameStar {
+    font-family: lato;
+    font-size: 19px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 0px;
+    line-height: 1;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 11px 35px;
+    cursor: pointer;
+}
+
+.appphoto {
+    width: 62%;
+    height: 82%;
+    margin: 21px 0px;
+    padding: 0px;
+}
+
+.img2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pText {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.cliickbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.text {
+    font-size: 35px;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: left;
+    margin-left: 89px;
+    margin-top: 16px;
+}
+
+.hr {
+    width: 8%;
+    margin: 11px 16px 32px 97px;
+    border: 2px solid red;
+    color: red;
+    background-color: red;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    height: 51%;
+    justify-content: space-between;
+}
+
+.imgbanner {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appbanner {
+    height: 50%;
+}
+
+.textcontent {
+    height: 50%;
+    margin: 0;
+}
+
+.fafa-star {
+    color: yellow;
+}
