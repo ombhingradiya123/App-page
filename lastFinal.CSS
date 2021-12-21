@@ -1,11 +1,99 @@
+.main {
+    /* font-size: 32px;
+    font-weight: 900; */
+    /* font-size: 35px;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: left;
+    margin-top: 16px; */
+    font-size: 33px;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: left;
+}
+
+.conatiner {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.conatiner1 {
+    width: 250px;
+}
+
+.container2 {
+    width: calc(100% - 340px);
+}
+
+.hrLeft {
+    /* width: 8%;
+    margin: 11px 16px 32px 0;
+    border: 2px solid red;
+    color: red;
+    background-color: red; */
+    width: 8%;
+    margin: 11px 16px 27px 0;
+    border: 2px solid red;
+    color: red;
+    background-color: red;
+}
+
+.main2 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12PX;
+    background-color: #F6F6F6;
+}
+
+.imgText {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.img1 {
+    max-width: 46px;
+    margin-bottom: 6px;
+}
+
+.img55 {
+    width: 100%;
+}
+
+.hr2 {
+    width: 100%;
+    background-color: #e0dbdb;
+}
+
+.imgText {
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.typewriter {
+    color: #4D4D4D;
+    margin: 4px 13px;
+    font-family: lato;
+}
+
 body {
     margin: 0;
 }
 
 .container2 {
-    max-width: 1200px;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .allMain {
@@ -29,16 +117,10 @@ body {
     padding: 24px;
     background-color: white;
     box-sizing: border-box;
-    height: 51.2vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-shadow: rgba(100, 100, 111, 0.30) 0px 7px 29px 0px;
     margin-bottom: 40px;
-}
-
-.img55 {
-    width: 100%;
 }
 
 .imgNameStar {
@@ -90,6 +172,10 @@ body {
     padding: 0px;
 }
 
+h1.text {
+    margin: 0;
+}
+
 .img2 {
     width: 50%;
     display: flex;
@@ -110,16 +196,15 @@ body {
 }
 
 .text {
-    font-size: 35px;
+    font-size: 33px;
     font-family: 'Lato';
     font-weight: 900;
     text-align: left;
-    margin-top: 16px;
 }
 
 .hr {
     width: 8%;
-    margin: 11px 16px 32px 0;
+    margin: 11px 16px 9px 0;
     border: 2px solid red;
     color: red;
     background-color: red;

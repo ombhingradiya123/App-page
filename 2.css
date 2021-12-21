@@ -1,0 +1,60 @@
+.main {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.hrLeft {
+    width: 8%;
+    margin: 11px 16px 32px 0;
+    border: 2px solid red;
+    color: red;
+    background-color: red;
+    /* margin-bottom: 0; */
+}
+
+.main2 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12PX;
+    background-color: #F6F6F6;
+}
+
+.imgText {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.img {
+    max-width: 46px;
+    margin-bottom: 6px;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.hr2 {
+    width: 100%;
+    background-color: #e0dbdb;
+}
+
+.imgText {
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.typewriter {
+    color: #4D4D4D;
+    margin: 4px 13px;
+    font-family: lato;
+}
